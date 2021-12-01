@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" type="text/css" href="Css/Ejercicio.css" media="All">
+<head>
+    <title>Cursos Gratis Estudiantes Unicordoba</title>
+</head>
+<body>
+    <div id="contenedor">
+      
+    <header>
+        <nav id="menu"> <ul>
+            <li><h4>Menú</h4></li>
+            <li><h4><a href="Ejercicio2.html">Inicio</a></h4></li>
+            <li><h4>Menú</h4></li>
+        </ul></nav> 
+        <img src="Img/Header.png" id="header">
+    </header>
+    <main id="principal">
+        <h3><br><i>Formulario de contacto.</i></br></h3>
+        <h4><i><br><p>Ingrese la siguiente información para ponernos en contacto y brindarle mas información al respecto
+            del curso.</p></i></br>
+        </h4>
+        <form action="Procesar.php" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campo</td>
+                        <th>Valor</td><br>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><br><label for="nombres">Nombres</label></td>
+                    <td><br><input type="text" placeholder="Escriba aquí sus nombres" id="nombres"></td>
+                </tr>
+                <tr>
+                    <td><br><label for="apellido">Apellidos</label></td>
+                    <td><br><input type="text" name="apellidos" placeholder="Escriba aquí sus apellidos" id="apellido"></td>
+                </tr>
+                <tr>
+                    <td><br><label for="telefono"> Telefono de contacto</label></td>
+                    <td><br><input type="tel" placeholder="Telefono" id="telefono"></td>
+                </tr>
+                <tr>
+                    <td><br><label for="correo"> Correo electronico</label></td>
+                    <td><br><input type="text" placeholder="correo@correo.com" id="correo"></td>
+                </tr>
+                <tr>
+                    <td><br><label for="genero">Genero</label></td>
+                    <td><br><select id="genero">
+                        <option value="0">Seleccione su genero...</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                        <option value="3">Otro</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br><label for="curso">Nombre del curso.</label></td>
+                    <td><br><input type="text" placeholder="Nombre del curso" id="curso"></td>
+                </tr>
+                <tr>
+                    <td><br><label for="acepta">Acepta términos y condiciones. </label></td>
+                    <td><br><input type="checkbox" name="" id="acepta"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br><input type="submit" name="Enviar"> </td>
+                </tr>
+               </tbody>
+            </table>
+            <br>
+        </form>
+    </main>
+    <aside id="columna">
+        <table>
+            <tr>
+                <td><br><img src="Img/Avatar.jfif" id="usuario"> </td>
+                <td><p><h4>Julian Perez.</h4></p>
+                <p>Estudiante.</p>
+                <p> Ing. de Sistemas.</p></td>
+            </tr>
+        </table>
+        <br>
+    </aside>
+    <footer id="pie">
+        <h6>© 2021 Copyright.</h6>
+    </footer>
+</div>
+</body>
+</html>
